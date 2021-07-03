@@ -1,0 +1,75 @@
+body{
+    background-color: firebrick;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 93%;
+    height: 100vh;
+    margin-top: .5%;
+}
+.whole{
+    height: 100vh;
+    width: 93%;
+    display: flex;
+}
+.hotel-main{
+    width: 73vw;
+}
+.main-heading{
+    height: 80px;
+    width: 73vw;
+    margin: auto;
+}
+.main-heading ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: floralwhite;
+    list-style-type: none;
+}
+ .main-heading ul li{
+    background-color: red;
+    width: 100%;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+}
+.main-heading ul li a{
+    position: relative;
+    top: 19%;
+    font-size: 40px;
+    color: white;
+    margin: auto;
+    text-decoration: none;
+} 
+.food-images{
+    position: relative;
+    top: 10%;
+    left: -50%;
+    width: 800px;
+    height: 800px;
+    overflow: hidden;
+    text-align: center;
+}
+.image-container{
+    display: flex;
+    width: 2400px;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+
+.buttons a{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+.about-hotel{
+    position: absolute;
+    right: 3.5%;
+    height: 500px;
+    width: 20%;
+    background-color: chartreuse;
+    border: 3px solid black;
+    text-align: center;
+}
